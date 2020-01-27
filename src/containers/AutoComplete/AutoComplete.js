@@ -136,7 +136,7 @@ const AutoComplete = ({ options }) => {
       <div className={styles.filters}>
         {tempFilter === undefined && (
           <Popover
-            trigger='focus'
+            trigger='click'
             placement='bottomLeft'
             className='Options'
             content={
